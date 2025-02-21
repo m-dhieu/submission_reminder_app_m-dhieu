@@ -102,6 +102,6 @@ chmod +x "$directory/startup.sh"
 
 echo "App environment set up complete! 🚀"
 echo "You can now run your application using: $directory/startup.sh."
-echo "Feel free to explore the app features, and reach out for help or any clarification."
+echo "Feel free to explore the app features, and reach out for help or any clarification. Stay connected!"
 echo "Enjoy using it, $userName."
 printf "\U1F389\U1F483\U1F57A\n"
