@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Ensure the script runs in interactive mode
+shopt -s expand_aliases  # Enable alias expansion
+source ~/.bashrc          # Source .bashrc to load any aliases or functions
+
 # Create a prompt to request for the user's name which will be used in the creation of the submission_reminder_{yourName} directory.
 echo "Hello! Please enter your name:"
 read userName
