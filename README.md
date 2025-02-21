@@ -85,7 +85,9 @@ The file should have a minimum of five students added after the fourth student t
 ## Script Explanation
 
 ### Activate Interactive Mode
-To ensure the script runs in interactive mode, `shopt -s expand_aliases` enables alias expansion, and `source ~/.bashrc` sources .bashrc to load any aliases or functions.
+To ensure the script runs in interactive mode, `shopt -s expand_aliases` enables alias expansion, and `source ~/.bashrc` sources .bashrc to load any aliases or functions.  
+
+`sleep` creates a time lapse between commands.
 
 ### User Input
 The first `echo` creates a prompt message visible to the user.
