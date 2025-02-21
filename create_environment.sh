@@ -12,10 +12,15 @@ mkdir -p "$directory"
 
 echo "Hello $userName 😊"
 echo "Welcome to the reminder application!"
+sleep 2  # wait 2 seconds before next command.
 echo "submission_reminder_$userName directory created!"
+sleep 2  # wait 2 seconds before next command.
 echo "This directory contains all the necessary subdirectories and files including the startup.sh file, to set up the reminder application."
+sleep 2  # wait 2 seconds before next command.
 echo "The reminder application will help you avoid last-minute stress effortlessly by sending alerts prior to all your assignment deadlines!"
+sleep 2  # wait 2 seconds before next command.
 echo "Setting up your app environment..."
+sleep 2  # wait 2 seconds before next command.
 
 # Create subdirectories in the submission_reminder_yourName directory, and the neceessary files with sample content in their respective directories.
 mkdir -p "$directory/app" "$directory/modules" "$directory/assets" "$directory/config"
@@ -23,7 +28,9 @@ mkdir -p "$directory/app" "$directory/modules" "$directory/assets" "$directory/c
 touch "$directory/app/reminder.sh" "$directory/modules/functions.sh" "$directory/assets/submissions.txt" "$directory/config/config.env" "$directory/startup.sh"
 
 echo "Almost there..."
+sleep 2  # wait 2 seconds before next command.
 echo "Subdirectories and files created!"
+sleep 2  # wait 2 seconds before next command.
 
 # Populate reminder.sh and functions.sh files with source code, config.env file with sample environment variables, and submissions.txt file with sample student records in the format: student, assignment, submission status.
 cat <<EOL > "$directory/app/reminder.sh"
@@ -90,7 +97,9 @@ Nzengele, Shell Navigation, not submitted
 EOL
 
 echo "Continuing set up..."
+sleep 2  # wait 2 seconds before next command.
 echo "Files populated."
+sleep 2  # wait 2 seconds before next command.
 
 # Give the startup.sh file execution permissions as it contains logic that starts up the reminder app when executed.
 cat <<EOL > "$directory/startup.sh"
@@ -105,7 +114,10 @@ EOL
 chmod +x "$directory/startup.sh"
 
 echo "App environment set up complete! 🚀"
+sleep 2  # wait 2 seconds before next command.
 echo "You can now run your application using: $directory/startup.sh."
+sleep 2  # wait 2 seconds before next command.
 echo "Feel free to explore the app features, and reach out for help or any clarification. Stay connected!"
+sleep 2  # wait 2 seconds before next command.
 echo "Enjoy using it, $userName."
 printf "\U1F389\U1F483\U1F57A\n"
