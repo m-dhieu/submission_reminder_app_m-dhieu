@@ -13,7 +13,7 @@ This is an application designed to help students plan for deadlines. It sends al
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository. Use:
+### Step 1: Clone the Repository in your local machine (Linux terminal). Use:
 ```
 git clone [https://github.com/m-dhieu/submission_reminder_app_m-dhieu.git]
 ```
